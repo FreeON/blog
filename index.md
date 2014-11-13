@@ -3,6 +3,6 @@ layout: default
 title: FreeON Blog
 ---
 
-A first test...
+A list of recent posts:
 
-{% include disqus.html %}
+{% include latest_posts.html %}
