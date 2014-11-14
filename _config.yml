@@ -9,4 +9,4 @@ pages_list:
   Main: "/blog"
 
 url: http://www.freeon.org/blog
-baseurl: "/blog"
+baseurl: /blog
