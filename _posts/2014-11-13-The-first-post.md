@@ -7,5 +7,3 @@ Blogging
 --------
 
 An experiement in a more open and collaborative approach...
-
-{% include disqus.html %}
