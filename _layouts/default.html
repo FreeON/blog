@@ -60,8 +60,13 @@
           <strong>Posts Archive</strong>
           <ul>
             {% for post in site.posts %}
-            <li><small><a href="{{ site.url }}{{ post.url }}">
-                {{ post.date | date_to_string }} &raquo; {{ post.title }}</a>
+            <li>
+              <small>
+                <a href="{{ site.url }}{{ post.url }}">
+                  {{ post.date | date_to_string }} &raquo; {{ post.title }}
+                </a>
+              </small>
+            </li>
             {% endfor %}
           </ul>
 
