@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -54,7 +54,7 @@
 
 {{ content }}
 
-{% include disqus.html %}
+        {% include disqus.html %}
 
         </section>
 
@@ -81,15 +81,7 @@
           <a href="https://twitter.com/jasonlong">Jason Long</a>.
           Now it is hand groomed by the authors.</p>
 
-          <center>
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- github spammpack add -->
-            <ins class="adsbygoogle"
-              style="display:inline-block;width:160px;height:600px"
-              data-ad-client="ca-pub-4328959315579213"
-              data-ad-slot="1272689850"></ins>
-            <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
-          </center>
+          {% include responsive_ad.html %}
 
         </aside>
       </div>
