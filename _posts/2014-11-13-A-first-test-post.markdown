@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The first post
+title: A first test post
 ---
 
 Blogging
