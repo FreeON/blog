@@ -8,5 +8,12 @@ footer-links:
 pages_list:
   Main: "/blog"
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 url: http://www.freeon.org/blog
 baseurl: /blog

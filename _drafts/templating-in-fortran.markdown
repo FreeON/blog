@@ -1,10 +1,8 @@
 ---
-layout: default
 title: Templating in Fortran
 ---
 
-Templating
-----------
+# {{ page.date | date_to_string }} - {{ page.title }}
 
 Without templating, supporting `double`/`single` precision versions of a
 function requires two separate implementations of that function, differing
