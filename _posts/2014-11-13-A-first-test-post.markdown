@@ -3,7 +3,6 @@ layout: default
 title: A first test post
 ---
 
-Blogging
---------
+# {{ page.title }}
 
 An experiment in a more open and collaborative approach...
