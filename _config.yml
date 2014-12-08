@@ -6,7 +6,7 @@ footer-links:
   github: nicolasbock
 
 pages_list:
-  Main: "/blog"
+  Main: "/blog/"
 
 defaults:
   -
